@@ -451,7 +451,7 @@ namespace Sibers_project
         //помощь
         private void button1Help_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Для корректной работы необходимо:" +
+            MessageBox.Show("Для корректной работы необходимо:\n\n" +
                 "1)заполнить разделы (Сотрудники, Заказчики, Исполнители)\n" +
                 "2)заполнить все поля в разделе (Проекты)\n" +
                 "3)открыть раздел \"Назначение\" и определить сотрудников или руководителя на проект\n" +
@@ -513,9 +513,7 @@ namespace Sibers_project
                 }
                 read.Close();
             }
-            catch {
-                //MessageBox.Show("44") ; 
-            }
+            catch {}
         }
 
         private string whereSearch()//выбираем по какому полю выполнять поиск
