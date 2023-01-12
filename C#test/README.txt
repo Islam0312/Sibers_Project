@@ -1,6 +1,6 @@
 
 Для запуска программы необходимо:
-•Установить SSMS(Mirosoft SQL Management Studio)
+•Установить SSMS(Microsoft SQL Management Studio)
 
 1)открыть файл "do1", нажать F5
 2)открыть файл "do2", нажать F5
